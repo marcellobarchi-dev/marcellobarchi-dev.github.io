@@ -3,7 +3,7 @@
                     File CSS beta 
                     
 ****************************************************/
-
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /* Imposta il box model su border-box per tutti gli elementi
    così padding e border non aumentano la larghezza totale */
 
@@ -13,6 +13,9 @@ html {
 *,*::before, *::after {
     box-sizing: inherit;
 }
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+
 
 /* File CSS */
 

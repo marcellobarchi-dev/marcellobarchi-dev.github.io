@@ -10,7 +10,7 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">Marcello Barchi</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,16 +39,24 @@
                 </div>
                 </nav>
         </header>
-        <main>
-            <div>
-                <h1>Full Stack Web Developer</h1>
-            </div>
-            <div>
-                <image id="profilo" src="assets/img/placeholder-400x600.png" alt="placeholder-400x600"></image>
-            </div>
-            <div>
-                <p>Il Lorem Ipsum serve a riempire spazi vuoti in bozze grafiche, layout di pagine web o database, permettendo a designer e sviluppatori di concentrarsi sull'aspetto visivo senza essere distratti dal contenuto reale. La sua caratteristica principale è la distribuzione uniforme delle lettere, che simula un testo leggibile pur essendo privo di senso compiuto. È utilizzato in tipografia, editoria, web design e sviluppo software come testo fittizio o segnaposto</p>
-            </div>
+        <main class="d-flex flex-column justify-content-center align-items-center min-vh-100 text-center">
+            <section>
+                <!-- Card Profile -->
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                                <img id="profilo" src="assets/img/pi.png" class="img-fluid rounded-start" alt="Profile-image">
+                            </div>
+                            <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title text-center">Marcello Barchi</h4>
+                                <p class="card-text text-center">I’m shaping my journey in web development through practice. Each project pushes me to improve and evolve.</p>
+                                <p class="card-text text-center"><small class="text-body-secondary">Junior Full Stack Web Developer</small></p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
         </main>
         <footer></footer>
         <!-- Bootstrap Js -->
